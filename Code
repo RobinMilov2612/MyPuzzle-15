@@ -1,0 +1,60 @@
+using System;
+
+public class Program
+{
+	public void Main()
+	{
+		int[, ] matrix = new int[, ]
+		{
+			{
+				1,
+				2,
+				3,
+				4
+			},
+			{
+				5,
+				6,
+				7,
+				8
+			},
+			{
+				9,
+				10,
+				11,
+				12
+			},
+			{
+				13,
+				14,
+				15,
+				16
+			}
+		};
+		Randomizer philip = new Randomizer();
+		philip.random(matrix);
+		for (int r = 0; r < 4; r++)
+		{
+			Console.WriteLine();
+			for (int c = 0; c < 4; c++)
+			{
+				Console.Write("\t" + matrix[r, c]);
+			}
+		}
+	}
+}
+public class Randomizer
+{
+	public void random(int[, ] matrix)
+	{
+		Random rnd = new Random();
+		
+		for (int i = 1; i < 4; i++)
+{
+    Console.WriteLine(rnd.Next(1,17));
+			
+}
+		
+	}
+	
+}
