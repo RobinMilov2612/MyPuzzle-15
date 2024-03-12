@@ -31,8 +31,8 @@ public class Program
 				16
 			}
 		};
-		Randomizer philip = new Randomizer();
-		philip.random(matrix);
+		Randomizer robin = new Randomizer();
+		robin.random(matrix);
 		for (int r = 0; r < 4; r++)
 		{
 			Console.WriteLine();
