@@ -52,6 +52,7 @@ public class Randomizer
 		for (int i = 1; i < 4; i++)
 {
     Console.WriteLine(rnd.Next(1,17));
+Console.WriteLine(rnd.Next(1,17));
 			
 }
 		
